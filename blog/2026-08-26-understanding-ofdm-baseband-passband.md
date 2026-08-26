@@ -109,7 +109,7 @@ Q[n]
 \operatorname{Im}\{x_b[n]\}.
 $$
 
-<div class="post-figure">
+<div class="post-figure figure-half">
   <img src="{{ '/assets/img/posts/2026-08-26-understanding-ofdm-baseband-passband/complex-plane.png' | relative_url }}" alt="Complex baseband representation as two real I/Q components.">
   <p><em>Figure 3: Complex baseband representation as two real I/Q components.</em></p>
 </div>
@@ -296,7 +296,7 @@ This equality should be understood as an average-power relation, for example aft
 
 ## TX RF Front-End
 
-<div class="post-figure">
+<div class="post-figure figure-compact">
   <img src="{{ '/assets/img/posts/2026-08-26-understanding-ofdm-baseband-passband/tx-rf.png' | relative_url }}" alt="TX RF front-end consisting of an RF BPF and power amplifier.">
   <p><em>Figure 5: TX RF front-end consisting of an RF BPF and power amplifier.</em></p>
 </div>
@@ -327,7 +327,7 @@ The PA block is particularly important for OFDM because OFDM signals have a high
 
 ## Passband Propagation Channel and Noise
 
-<div class="post-figure">
+<div class="post-figure figure-compact">
   <img src="{{ '/assets/img/posts/2026-08-26-understanding-ofdm-baseband-passband/tx-channel-rx.png' | relative_url }}" alt="Passband propagation channel with additive real AWGN.">
   <p><em>Figure 6: Passband propagation channel with additive real AWGN.</em></p>
 </div>
@@ -380,7 +380,7 @@ where $k$ is Boltzmann's constant, $T$ is the physical temperature, and $B$ is t
 
 ## RX RF Front-End: BPF and LNA
 
-<div class="post-figure">
+<div class="post-figure figure-compact">
   <img src="{{ '/assets/img/posts/2026-08-26-understanding-ofdm-baseband-passband/rx-lna.png' | relative_url }}" alt="RX RF front-end consisting of an RF BPF and LNA.">
   <p><em>Figure 7: RX RF front-end consisting of an RF BPF and LNA.</em></p>
 </div>

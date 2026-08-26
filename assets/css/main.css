@@ -385,6 +385,19 @@ section {
     text-align: center;
 }
 
+.post-figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+.post-figure.figure-half img {
+    width: 50%;
+}
+
+.post-figure.figure-compact img {
+    width: 80%;
+}
+
 .post-figure p {
     margin-top: 8px;
     color: var(--text-light);
