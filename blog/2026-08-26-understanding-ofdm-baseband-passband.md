@@ -34,6 +34,8 @@ $$
 
 Following this entire chain helped connect several ideas that had previously seemed unrelated.
 
+The MATLAB simulator used for this post is available here: [Git_OFDM_simulator](https://github.com/kim-seyong/Git_OFDM_simulator).
+
 <div class="post-figure">
   <img src="{{ '/assets/img/posts/2026-08-26-understanding-ofdm-baseband-passband/system-model.png' | relative_url }}" alt="End-to-end OFDM transceiver architecture considered in this post. The diagram connects digital OFDM processing, I/Q baseband-passband conversion, the TX and RX RF front-ends, the propagation channel, and receiver-side channel estimation, equalization, and decoding.">
   <p><em>Figure 1: End-to-end OFDM transceiver architecture considered in this post. The diagram connects digital OFDM processing, I/Q baseband-passband conversion, the TX and RX RF front-ends, the propagation channel, and receiver-side channel estimation, equalization, and decoding.</em></p>
