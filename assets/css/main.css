@@ -380,6 +380,55 @@ section {
     height: auto;
 }
 
+.post-figure {
+    margin: 28px 0;
+    text-align: center;
+}
+
+.post-figure p {
+    margin-top: 8px;
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.table-wrap {
+    margin: 24px 0;
+    overflow-x: auto;
+}
+
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.post-content caption {
+    margin-bottom: 8px;
+    font-family: var(--font-body);
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.post-content th,
+.post-content td {
+    padding: 7px 9px;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+    vertical-align: top;
+}
+
+.post-content th {
+    border-top: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    font-weight: 700;
+}
+
+.post-content tbody tr:last-child td {
+    border-bottom: 1px solid var(--text-color);
+}
+
 .post-content blockquote {
     margin: 24px 0;
     padding-left: 18px;
