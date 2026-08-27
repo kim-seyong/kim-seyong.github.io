@@ -1115,3 +1115,7 @@ The table entries above intentionally collect the implementation assumptions tha
 </div>
 
 The BLER/BER comparison in Figure 11 evaluates MCS indices 3, 7, 11, and 15 from this table. For each selected MCS, the simulator computes the rate-matched coded-bit length as $E=N_{\mathrm{data\ RE}}Q_m$ and the number of information bits before CRC24A attachment as $A=\lfloor E(R_{\mathrm{tab}}/1024)\rfloor$.
+
+## References
+
+This post was written with reference to David Tse and Pramod Viswanath's *Fundamentals of Wireless Communication*, Upamanyu Madhow's *Fundamentals of Digital Communication*, and my earlier simulator work, **OFDM Simulator for Underwater Acoustic Communications**.
